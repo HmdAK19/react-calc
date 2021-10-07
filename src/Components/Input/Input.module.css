@@ -1,0 +1,36 @@
+.inputWrapper {
+    height: 6em;
+    display: flex;
+    flex-direction: column;
+    background-color: #474747;
+    color: #ffffff;
+    padding: 1em;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    overflow-wrap: anywhere;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    /* change for test */
+
+    transition: 1s all;
+}
+
+.inputWrapper:hover {
+    cursor: text;
+}
+
+.input {
+    font-size: 1.2em;
+    align-self: flex-end;
+
+    transition: 1s all;
+}
+
+.result {
+    font-size: 1.8em;
+    font-weight: bold;
+    overflow-wrap: anywhere;
+    align-self: flex-end;
+
+    transition: 1s all;
+}

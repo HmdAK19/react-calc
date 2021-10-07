@@ -1,0 +1,38 @@
+.buttonWrapper {
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 1.4em;
+    background-color: #e0e1e6;
+    color: #888888;
+    flex: 1;
+    border-radius: 10px;
+    margin: 3px;
+
+    transition: 0.5s all;
+}
+
+.buttonWrapper:hover {
+    cursor: pointer;
+    background-color: #aaabb1;
+    color: white;
+}
+
+.operator {
+    background-color: #fe9241;
+    color: #ffffffff;
+
+    transition: 0.5s all;
+}
+
+.operator:hover {
+    cursor: pointer;
+    background-color: #e96602;
+}
+
+.empty {
+    pointer-events: none;
+    opacity: 0.4;
+}
